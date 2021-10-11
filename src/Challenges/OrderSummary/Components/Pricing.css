@@ -1,0 +1,48 @@
+.pricing {
+  width: 100%;
+  display: flex;
+  background-color: hsl(225, 100%, 98%);
+  justify-content: space-between;
+  padding: 15px 15px;
+  border-radius: 10px;
+}
+
+.pricing>section {
+  display: flex;
+  align-items: center;
+}
+
+.avatar {
+  display: flex;
+  background-color: hsl(225, 100%, 94%);
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+}
+
+.pricing_rate {
+  margin-left: 20px;
+}
+
+.pricing_rate>h4 {
+  color: gray;
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+
+.pricing_change {
+  background: none;
+  border: none;
+  outline: none;
+  color: hsl(245, 75%, 52%);
+  text-decoration: underline;
+  font-weight: 900;
+}
+
+.pricing_change:hover {
+  text-decoration: none;
+  cursor: pointer;
+  color: rgb(56, 41, 224, 0.7);
+}

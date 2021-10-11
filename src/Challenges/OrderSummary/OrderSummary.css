@@ -1,0 +1,103 @@
+.order__summary__bg {
+  width: 100%;
+  height: 100vh;
+  background-color: #E0E8FF;
+  background-image: url("https://raw.githubusercontent.com/frontendmentorio/order-summary-component/2de9d653930ee326bdf2fd453e021a0ea01f6aa3/images/pattern-background-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.order__summary {
+  width: 400px;
+  margin: 0 auto;
+  border-radius: 25px;
+  overflow: hidden;
+}
+
+.summary__hero {
+  height: fit-content;
+  background-color: white;
+}
+
+.summary__hero > img {
+  width: 100%;
+  background-size: cover;
+}
+
+/* Pale BLue  hsl(225, 100%, 94%)*/
+/* Very pale blue: hsl(225, 100%, 98%) */
+
+
+.summary__main {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 40px;
+}
+
+.heading {
+  font-size: 1.5rem;
+  margin: 20px 0;
+}
+
+.summary__main > p {
+  text-align: center;
+  line-height: 1.5rem;
+  font-size: 16px;
+  font-weight: 500;
+  color: gray;
+  margin-bottom: 20px;
+}
+
+.btn__payment {
+  background-color: hsl(245, 75%, 52%);
+  cursor: pointer;  
+  width: 100%;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 10px;
+  font-weight: 600;
+  display: block;
+  margin-top: 20px;
+  box-shadow: 0px 15px 10px rgb(56, 41, 224, 0.2);
+}
+
+.btn__payment:hover {
+  background-color: rgb(56, 41, 224, 0.7);
+}
+
+.btn__cancel {
+  border: none;
+  cursor: pointer;  
+  background: transparent;
+  color: gray;
+  font-weight: 700;
+  margin: 30px 0px;
+  margin-bottom: 50px;
+}
+
+.btn__cancel:hover {
+  color: black;
+}
+
+@media screen and (max-width: 375px) {
+  .order__summary {
+    width: 90%;
+  }
+
+  .summary__main {
+    padding: 0 20px;
+  }
+  .summary__main > p {
+    width: 80%;
+  }
+
+  .btn__payment {
+    padding: 20px 15px;
+  }
+}
