@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/frontend-mentor-ui-ux-implementations/static/css/main.bf2a0f0d.chunk.css",
+    "main.js": "/frontend-mentor-ui-ux-implementations/static/js/main.25d81ba2.chunk.js",
+    "main.js.map": "/frontend-mentor-ui-ux-implementations/static/js/main.25d81ba2.chunk.js.map",
+    "runtime-main.js": "/frontend-mentor-ui-ux-implementations/static/js/runtime-main.c6cec150.js",
+    "runtime-main.js.map": "/frontend-mentor-ui-ux-implementations/static/js/runtime-main.c6cec150.js.map",
+    "static/js/2.1ef7514f.chunk.js": "/frontend-mentor-ui-ux-implementations/static/js/2.1ef7514f.chunk.js",
+    "static/js/2.1ef7514f.chunk.js.map": "/frontend-mentor-ui-ux-implementations/static/js/2.1ef7514f.chunk.js.map",
+    "static/js/3.a0550eb4.chunk.js": "/frontend-mentor-ui-ux-implementations/static/js/3.a0550eb4.chunk.js",
+    "static/js/3.a0550eb4.chunk.js.map": "/frontend-mentor-ui-ux-implementations/static/js/3.a0550eb4.chunk.js.map",
+    "index.html": "/frontend-mentor-ui-ux-implementations/index.html",
+    "static/css/main.bf2a0f0d.chunk.css.map": "/frontend-mentor-ui-ux-implementations/static/css/main.bf2a0f0d.chunk.css.map",
+    "static/js/2.1ef7514f.chunk.js.LICENSE.txt": "/frontend-mentor-ui-ux-implementations/static/js/2.1ef7514f.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c6cec150.js",
+    "static/js/2.1ef7514f.chunk.js",
+    "static/css/main.bf2a0f0d.chunk.css",
+    "static/js/main.25d81ba2.chunk.js"
+  ]
+}
